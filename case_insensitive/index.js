@@ -23,7 +23,7 @@ const expected3 = false;
 function caseInsensitiveStringCompare(strA, strB) {
     // ignore whitespace
     // compare length of str (only helpful if longer strings? slower otherwise?)
-    // if (strA.length != strB.length) {
+    // if (strA.length !== strB.length) {
     //     return false;
     // }
     // else change case of strings and compare
